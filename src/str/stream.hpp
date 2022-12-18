@@ -18,7 +18,7 @@
 #define DMITIGR_STR_STREAM_HPP
 
 #include "../base/ret.hpp"
-#include "../fs/filesystem.hpp"
+#include "../fsx/filesystem.hpp"
 #include "basics.hpp"
 #include "exceptions.hpp"
 #include "predicate.hpp"
@@ -30,6 +30,7 @@
 #include <istream>
 #include <fstream>
 #include <optional>
+#include <sstream>
 #include <string>
 #include <vector>
 
